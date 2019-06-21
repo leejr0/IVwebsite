@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+<!--    <link rel="icon" href="https://intervarsity.org/sites/all/themes/base7/images/favicon-rebrand-32x32.png">-->
+	<link rel="icon" href="images/favicon.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Yearly Events | InterVarsity Christian Fellowship</title>
+	<link rel="stylesheet" type="text/css" href="css/intervarsity-csu.css">
+	
+	<link rel="stylesheet" media="only screen and (max-width:950px)" href="css/intervarsity-csu-narrow.css">
+
+	<!--	Google Fonts-->
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+	
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	
+</head>
+<body>
+    
+    
+    <script>
+
+		$( document ).ready(function() {
+			$( "#cross" ).hide();
+			$( ".menu" ).hide();
+			$( "#hamburger" ).click(function() {
+				$( ".menu" ).slideToggle( "slow", function() {
+					$( "#hamburger" ).hide();
+					$( "#cross" ).show();
+				});
+			});
+
+			$( "#cross" ).click(function() {
+				$( ".menu" ).slideToggle( "slow", function() {
+					$( "#cross" ).hide();
+					$( "#hamburger" ).show();
+				});
+			});
+		});
+
+    </script>
+
+    <div id="wrapper">
+        <header>
+            <div class="fullscreen" id="logo">
+                <a href="index.html"> <img alt="InterVarsity at CSU logo" src="images/horizontal-logo.png"> </a>
+            </div>
+            <div class="mobile" id="mobile-logo"> 
+		<a href="index.html"> <img alt="InterVarsity at CSU mobile logo" src="images/vertical-logo.png"> </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="calendar.html">Calendar</a></li>
+                    <li><a href="about-intervarsity.html">About InterVarsity</a></li> 
+                    <li><a href="bible-studies.html">Bible Studies</a></li> 
+                    <li><a href="contact-us.html">Contact Us</a></li>
+                    <li><a href="meet-the-leaders.html">Meet the Leaders</a></li>
+                    <li><a id="active" href="yearly-events.html">Yearly Events</a></li>
+                    <li><a href="our-mission.html">Our Mission</a></li>
+                </ul>
+            </nav>
+            
+            <div id="menu-div">
+		<button class="mobile" id="hamburger">&#x2261;</button>
+		<button class="mobile" id="cross">x</button>
+	    </div>
+	    <div class="menu">
+		<ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="calendar.html">Calendar</a></li>
+                    <li><a href="about-intervarsity.html">About InterVarsity</a></li> 
+                    <li><a href="bible-studies.html">Bible Studies</a></li> 
+                    <li><a href="contact-us.html">Contact Us</a></li>
+                    <li><a href="meet-the-leaders.html">Meet the Leaders</a></li>
+                    <li><a href="yearly-events.html">Yearly Events</a></li>
+                    <li><a href="our-mission.html">Our Mission</a></li>
+                </ul>
+	    </div>
+            
+        </header>
+        
+        <div id="content">
+            
+            <div id="single-column">
+               
+                <a id="main-link" href="index.html">InterVarsity</a>
+                <h1>Yearly Events</h1>
+                
+                <h3>Fall Conference</h3>
+			     <p> At the beginning of every Fall semester, InterVarsity gathers for one weekend to discover Jesus and community together! Schools from across the entire Rocky Mountain Region come, including CSU, UNC, UCCS, and others! Get ready to experience Jesus through worship, scripture studies, and fun! </p>
+                <h3>Mark Camp</h3>
+			     <p> InterVarsity hosts a week in Spring Break dedicated to exploring the book of Mark! If it's your first time coming, get ready to manuscript the entire first half of Mark! Returning students will study the second half!</p><br>
+			     <p> Jesus truly invites you to come to Mark Camp, for the simple chance of spending time with you. Admist the chaos of school, spending a week with Jesus is a rewarding and valuable opportunity you don't want to miss.</p>
+                <h3>Denver Urban Program</h3>
+			     <p> The Denver Urban Program is a chance to serve people less fortunate than us. Spend either a week or a 6-week period living with marginalized communities in Denver to study God's Word and learning about God's heart for justice. </p>
+                
+                <h3>Urbana</h3>
+			     <p> Urbana is a conference that brings thousands of Christians from different walks of life together. This five-day event allows people to participate in worship sessions, messages and seminars, Bible studies, prayer, and even more. For years, God has touched so many people from this conference, from ministry leaders to undergraduate students. </p>
+                
+            </div>
+            
+        </div>
+        
+        <footer>
+            <div id="left"> 
+		<h4 id="title"> InterVarsity Christian Fellowship </h4>
+		<h4><em> Reaching every corner of CSU </em> </h4>
+            </div>
+            <div id="middle"> 
+		<h3> <em> Verse of the Week: </em> </h3>
+		<h4> Jeremiah 29:11 </h4>
+		<h4><em> "For I know the plans I have for you," declares the Lord, "plans to prosper you and not to harm you, plans to give you hope and a future."</em> </h4>
+            </div>
+            <div id="right"> 
+		<p> <a href="index.html"> InterVarsity@CSU Home Page </a> </p>
+		<p> <a href="https://ramlink.campuslabs.com/engage/organization/iv_csu"> InterVarsity Ramlink Page </a> </p>
+		<p> <a href="https://intervarsity.org/"> InterVarsity USA Main Page </a> </p>
+		<p> <a href="https://www.facebook.com/groups/ivcf.csu/"> InterVarsity Facebook Page </a> </p>
+            </div>
+        </footer>
+        
+    </div>
+
+</body>
+</html>

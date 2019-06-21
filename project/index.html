@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+<!--    <link rel="icon" href="https://intervarsity.org/sites/all/themes/base7/images/favicon-rebrand-32x32.png">-->
+    <link rel="icon" href="images/favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>InterVarsity Christian Fellowship at CSU</title>
+	<link rel="stylesheet" type="text/css" href="css/intervarsity-csu.css">
+	
+	<link rel="stylesheet" media="only screen and (max-width:950px)" href="css/intervarsity-csu-narrow.css">
+	
+	<!--	Google Fonts-->
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+	
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	
+</head>
+<body>
+
+
+    <script>
+
+		$( document ).ready(function() {
+			$( "#cross" ).hide();
+			$( ".menu" ).hide();
+			$( "#hamburger" ).click(function() {
+				$( ".menu" ).slideToggle( "slow", function() {
+					$( "#hamburger" ).hide();
+					$( "#cross" ).show();
+				});
+			});
+
+			$( "#cross" ).click(function() {
+				$( ".menu" ).slideToggle( "slow", function() {
+					$( "#cross" ).hide();
+					$( "#hamburger" ).show();
+				});
+			});
+		});
+
+    </script>
+    
+    <div id="wrapper">
+        <header>
+            <div class="fullscreen" id="logo">
+                <a href="index.html"> <img alt="InterVarsity at CSU logo" src="images/horizontal-logo.png"> </a>
+            </div>
+            <div class="mobile" id="mobile-logo"> 
+                <a href="index.html"> <img alt="InterVarsity at CSU mobile logo" src="images/vertical-logo.png"> </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a id="active" href="index.html">Home</a></li>
+                    <li><a href="calendar.html">Calendar</a></li>
+                    <li><a href="about-intervarsity.html">About InterVarsity</a></li> 
+                    <li><a href="bible-studies.html">Bible Studies</a></li> 
+                    <li><a href="contact-us.html">Contact Us</a></li>
+                    <li><a href="meet-the-leaders.html">Meet the Leaders</a></li>
+                    <li><a href="yearly-events.html">Yearly Events</a></li>
+                    <li><a href="our-mission.html">Our Mission</a></li>
+                </ul>
+            </nav>
+            
+            <div id="menu-div">
+		<button class="mobile" id="hamburger">&#x2261;</button>
+		<button class="mobile" id="cross">x</button>
+	    </div>
+	    <div class="menu">
+		<ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="calendar.html">Calendar</a></li>
+                    <li><a href="about-intervarsity.html">About InterVarsity</a></li> 
+                    <li><a href="bible-studies.html">Bible Studies</a></li> 
+                    <li><a href="contact-us.html">Contact Us</a></li>
+                    <li><a href="meet-the-leaders.html">Meet the Leaders</a></li>
+                    <li><a href="yearly-events.html">Yearly Events</a></li>
+                    <li><a href="our-mission.html">Our Mission</a></li>
+                </ul>
+	    </div>
+        </header>
+        
+        <div id="content">
+            
+            <div id="single-column">
+               
+                <a id="main-link" href="index.html">InterVarsity</a>
+                <h1>InterVarsity Christian Fellowship</h1>
+                
+                <div class="container">
+                    <div class="home">
+                        <h3>Manuscript the Bible.</h3>
+                        <p>Participate in inductive Bible studies to understand the Bible from a new angle!</p>
+                    </div>
+                    <div class="home">
+                        <h3>Find community.</h3>
+                        <p>Get involved with game nights, service nights, and more to get to know your fellow students!</p>
+                    </div>
+                    <div class="home">
+                        <h3>Discover Jesus.</h3>
+                        <p>Meet with Jesus personally, and find out who He is for yourself.</p>
+                    </div>
+                </div>
+                
+                
+            </div>
+            
+        </div>
+        
+        <footer>
+            <div id="left"> 
+		<h4 id="title"> InterVarsity Christian Fellowship </h4>
+		<h4><em> Reaching every corner of CSU </em> </h4>
+            </div>
+            <div id="middle"> 
+		<h3> <em> Verse of the Week: </em> </h3>
+		<h4> Jeremiah 29:11 </h4>
+		<h4><em> "For I know the plans I have for you," declares the Lord, "plans to prosper you and not to harm you, plans to give you hope and a future."</em> </h4>
+            </div>
+            <div id="right"> 
+		<p> <a href="index.html"> InterVarsity@CSU Home Page </a> </p>
+		<p> <a href="https://ramlink.campuslabs.com/engage/organization/iv_csu"> InterVarsity Ramlink Page </a> </p>
+		<p> <a href="https://intervarsity.org/"> InterVarsity USA Main Page </a> </p>
+		<p> <a href="https://www.facebook.com/groups/ivcf.csu/"> InterVarsity Facebook Page </a> </p>
+            </div>
+        </footer>
+        
+    </div>
+
+</body>
+</html>
