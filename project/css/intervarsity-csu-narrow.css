@@ -1,0 +1,422 @@
+body {
+    background-color: #004712;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+img {
+    display: block;
+}
+
+.fullscreen {
+    display: none;
+}
+.mobile {
+    display: block;
+}
+
+#wrapper {
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 0;
+    width: 95%;
+}
+
+header {
+    padding: 10px 0 0 0;
+    margin: 0 0 0 0;
+}
+#mobile-logo img{
+    display: block;
+    margin: 10px auto;
+}
+nav {
+    display: none;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+header li {
+    padding: 0 5px 0 5px;
+    margin: 0;
+}
+header a {
+    text-decoration: none;
+    color: #6d6e71;
+    padding: 4px 6px 2px 6px;
+    margin: 0;
+}
+#active {
+    background-color: #fff;
+    color: #6d6e71;
+}
+/* Hamburger menu details */
+.menu {
+    display: block;
+    width: 95%;
+    margin: 10px auto;
+    position: absolute;
+}
+.menu li {
+    background: #fff;
+    border-bottom: #dddddd 1px solid;
+    padding: 10px;
+}
+#menu-div {
+    background-color: #006a82;
+}
+#menu-div button {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 3px;
+    background: none;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    font-size: 2em;
+    color: #f16528;
+}
+
+
+
+
+
+
+
+#content {
+    flex-direction: column;
+    border: none;
+    margin: 0 5px 0 5px;
+    padding: 0 0 0 0;
+}
+#images {
+    margin:  0 5px 0 5px;
+    padding: 0;
+    flex-direction: column;
+}
+#images img {
+    display: block;
+    padding: 0;
+    width: 80%;
+    border: 1px solid #000;
+    margin: 10px auto;
+}
+
+#study-locations {
+    flex-direction: column;
+    margin: 0 auto;
+}
+#Corbett {
+    width: 100%;
+    padding: 0 0 15px 0;
+    margin: 0;
+}
+#Newsom {
+    width: 100%;
+    padding: 0 0 15px 0;
+    margin: 0;
+}
+#Grove {
+    width: 100%;
+    padding: 0 0 15px 0;
+    margin: 0;
+}
+
+
+#main {
+    width: 80%;
+    margin: 15px auto;
+    padding: 0;
+    text-align: center;
+}
+#main a {
+    font-size: .8em;
+}
+#main p {
+    padding: 0;
+    margin: 0 0 15px 0;
+}
+
+h1 {
+    font-family: 'Lato', sans-serif;
+    color: #f16528;
+    margin: 0;
+    padding: 0 0 15px 0;  
+}
+h3 {
+    color: #006a82;
+    padding: 0 0 10px 0;
+    text-align: center;
+}
+p {
+    color: #6d6e71;
+}
+#sidebar {
+    margin: 15px auto;
+    padding: 0;
+    width: 80%;
+}
+#sidebar h4 {
+    margin: 15px 0 0 0;
+    padding: 0;
+    color: #000;
+    text-align: center;
+}
+#sidebar p {
+    margin: 0;
+    padding: 0 0 0 0;
+    color: #000;
+    text-align: center;
+}
+
+footer {
+    margin: 0;
+    padding: 30px 0 0 0;
+    text-align: center;
+    display: flex;
+}
+footer p {
+    margin: 0 0 0 0;
+    padding: 15px 10px 0 0;
+    text-align: left;
+}
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+#left {
+    width: 32%;
+    border-radius: 0 15px 0 0;
+    background-color: #f16528;
+}
+#left h4 {
+    font-size: .9em;
+    padding: 10px 10px 0 30px;
+    margin: 0;
+}
+#left #title {
+    color: #fff;
+    padding: 20px 10px 0 20px;
+    margin: 0;
+}
+#middle {
+    width: 68%;
+    border-radius: 15px 0 0 0;
+    background-color: #f16528;
+    text-align: left;
+    padding: 0 10px 10px 0;
+    margin: 0;
+}
+#middle h3 {
+    text-align: left;
+    font-size: .9em;
+    padding: 20px 0 5px 10px;
+    margin: 0;
+}
+#middle h4 {
+    font-size: .8em;
+    padding: 0 0 0 25px;
+    margin: 0;
+}
+
+#right {
+    display: none;
+    font-size: .8em;
+    width: 28%;
+    border-radius: 0 0 0 0;
+    background-color: #f16528;
+    padding: 0 0 0 10px;
+}
+#right p {
+    padding: 5px 0 0 10px;
+    margin: 0;
+}
+
+
+#single-column {
+    width: 100%;
+    margin: 15px 0 0 0;
+    padding: 0;
+    text-align: center;
+    flex-direction: column;
+}
+#single-column a {
+    font-size: .8em;
+}
+#single-column h4 {
+    padding: 0 0 5px 0;
+    margin: 0;
+    text-align: center;
+}
+#single-column p {
+/*    padding: 0 !important;*/
+    font-size: 1em;
+    margin: 0;
+    padding: 0 0 0 20px;
+    text-align: left;
+}
+.spaced-p {
+    margin: 0;
+    padding: 0 0 20px 20px !important;
+}
+.spaced-p em {
+   color: #006a82;
+}
+
+
+#staff {
+    text-align: center !important;
+    flex-direction: column;
+}
+#staff p {
+    text-align: center !important;
+}
+#Chanelle {
+    width: 100%;
+    padding: 0 0 20px 0;
+}
+#Craig {
+    width: 100%;
+    padding: 0 0 20px 0;
+}
+#Aaron {
+    width: 100%;
+    padding: 0 0 20px 0;
+}
+#students {
+    text-align: center;
+    padding: 0 0 20px 0;
+    margin: 0;
+    flex-direction: column;
+}
+#students p {
+    text-align: center !important;
+}
+#EJ {
+    width: 100%;
+    padding: 0 0 20px 0;
+}
+#EJ img {
+    width: 189px;
+}
+#Nathan {
+    width: 100%;
+    padding: 0 0 20px 0;
+}
+#Nathan img {
+    width: 189px;
+}
+.h4-title {
+    color: #006a82;
+}
+.faces {
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+}
+.faces div {
+    width: 50%; 
+}
+#Corbett {
+     width: 100%; 
+/*    width: 400px;*/
+    margin: 0 auto;
+    border: none;
+}
+#Corbett p {
+    text-align: center;
+}
+#Newsom {
+     width: 100%; 
+/*    width: 400px;*/
+    margin: 0 auto;
+    border: none;
+}
+#Newsom p {
+    text-align: center;
+}
+#Grove {
+     width: 100%; 
+/*    width: 400px;*/
+    margin: 0 auto;
+    border: none;
+}
+#Grove p {
+    text-align: center;
+}
+
+.left-name {
+    text-align: right;
+}
+.right-name {
+    text-align: right;
+}
+.names {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container {
+    flex-direction: column;
+}
+.home {
+    width: 100%;
+    padding: 0;
+}
+.home p {
+    padding: 0 15px 0 20px;
+    margin: 0 10px;
+}
+
+#weekday {
+    display: none;
+}
+#row1 {
+    flex-direction: column;
+}
+#row1 li {
+    width: 100%;
+    padding: 0 0 80px 0;
+}
+#row2 {
+    flex-direction: column;
+}
+#row2 li {
+    width: 100%;
+    padding: 0 0 80px 0;
+}
+#row3 {
+    flex-direction: column;
+}
+#row3 li {
+    width: 100%;
+    padding: 0 0 80px 0;
+}
+#row4 {
+    flex-direction: column;
+}
+#row4 li {
+    width: 100%;
+    padding: 0 0 80px 0;
+}
+#row5 {
+    flex-direction: column;
+}
+#row5 li {
+    width: 100%;
+    padding: 0 0 80px 0;
+}
+#dates p {
+    padding: 0;
+}
+.empty {
+    padding: 0 0 10px 0px !important;
+}
